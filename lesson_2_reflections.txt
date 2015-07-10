@@ -3,3 +3,19 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	It's a place to keep track of what changes you want to move to version control.  It's useful for organizing revisions clearly.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Only stage/commit one file at a time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	When trying out new features or fixing complex bugs.
+
+How do the diagrams help you visualize the branch structure?
+	Diagrams visually display the branch structure in a straightforward manner.  They're fundamental in any VCS, and git's CLI actually does a great job of displaying them.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Changes from both branches are intact in the new master.  The log now clearly visually represents the branch as it happened, with changes interspersed as per their timeline.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros: dramatically reduces the amount of clerical boring copy/paste work.
+	Cons: creates the possibility of merging two mutually incompatible files, although conflict checking makes this unlikely.  Also means new features will showup without our understanding or seeing their code. 
