@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Git creates a private dir with files used to maintain archive information and snapshots.
